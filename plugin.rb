@@ -1,6 +1,6 @@
 # name: discourse-email-template-overrides
 # about: Plugin that overrides the default notifications email templates and styles in Discourse. 
-# version: 0.0.1
+# version: 0.1.0
 # authors: HappyPorch
 # url: https://github.com/HappyPorch/discourse-email-template-overrides/
 
