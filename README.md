@@ -95,5 +95,7 @@ email_style_overrides:
 The key of each YAML line is the CSS selector of the element(s) you wish to target.
 The value of each item contains the styles you wish to add to that element.
 
+> NOTE: from Discourse 2.4+ it's possible to add custom CSS for emails via the Admin > Customize > Email Style dashboard, which renders this part of the plugin obsolete.
+
 ## How To Install
 Follow the [default plugin installation guide](https://meta.discourse.org/t/install-plugins-in-discourse/19157) as provided by Discourse.
