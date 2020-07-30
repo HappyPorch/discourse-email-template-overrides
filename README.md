@@ -22,7 +22,7 @@ You template file can contain custom code/markup to customise the post informati
 
   guardian = Guardian.new(post.user)
 
-  if (added_fields = User.whitelisted_user_custom_fields(guardian)).present?
+  if (added_fields = User.allowed_user_custom_fields(guardian)).present?
     user_custom_fields = User.custom_fields_for_ids([post.user.id], added_fields)[post.user.id] || {}
 
     if (user_custom_fields.present?)
